@@ -1,0 +1,82 @@
+.vb-logo {
+    width: 163px;
+    height: 19px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-top: 21.79px;
+    margin-right: 20px;
+    gap: 89px;
+
+}
+
+/* NAVIGATION */
+.menu-nav {
+    padding: 140px 0px;
+}
+
+.menu-list {
+    list-style: none;
+}
+
+.menu-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: normal normal normal 15px/36px Manrope;
+    letter-spacing: 0.6px;
+    border-top: 1px solid #EAE8E4;
+    padding: 27.87px 20px;
+}
+
+.menu-list-item:last-of-type {
+    border-bottom: 1px solid #EAE8E4;
+}
+
+
+/* CONTACT SECTION */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.contact-section {
+    background: #F0EFED 0% 0% no-repeat padding-box;
+    height: 31vh;
+    padding: 52px 0px 85px 46.5px;
+}
+
+.contact-heading {
+    font: normal normal 600 13px/36px Manrope;
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 13.07px;
+
+}
+
+.office-holder {
+    font: normal normal normal 13px/18px Manrope;
+    letter-spacing: 0.52px;
+    color: #444444;
+}
+
+.contact-address::before {
+    content: "";
+    display: block;
+    background-color: #444444;
+    width: 27px;
+    height: 1px;
+    margin: 18.5px 0px 19.5px;
+}
+
+.contact-address>a {
+    display: block;
+    font: normal normal normal 13px/18px Manrope;
+    letter-spacing: 0.52px;
+    text-decoration: none;
+    color: #444444;
+
+}
